@@ -16,3 +16,13 @@ print("after the EXIT!!!")
 num=int(input("enter the number"))
 if num%1==0: print(num, "is a odd number")
 print("after the EXIT!!!")
+
+
+'''program to determine the character enterd by a user ,whether it is an alphabet,digit or space by using seperate if condition and predefined string function'''
+char=input("press any key:")
+if char.isalpha():
+    print("The user has entered character")
+    if char.isdigit():
+        print("The user has entered digit")
+        if char.isspace():
+            print("The user has enterd space")

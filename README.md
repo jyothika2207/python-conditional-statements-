@@ -10,3 +10,9 @@ if person>=18:
 num=int(input("enter the number"))
 if num%2==0: print(num, "is a even number")
 print("after the EXIT!!!")
+
+#checking the number is odd or not
+'''print whether the number is even and skip the condition if not'''
+num=int(input("enter the number"))
+if num%1==0: print(num, "is a odd number")
+print("after the EXIT!!!")

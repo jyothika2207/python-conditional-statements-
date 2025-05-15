@@ -4,18 +4,32 @@ person=int(input("enter the person age:"))
 limit=18
 if person>=18:
     print("the person is eligible to vote")
+output:
+    enter the person age: 19
+the person is eligible to vote
+
 
 #checking the number is even or not
 '''print whether the number is even and skip the condition if not'''
 num=int(input("enter the number"))
 if num%2==0: print(num, "is a even number")
 print("after the EXIT!!!")
+output:
+      enter the number 22
+     22 is a even number
+     after the EXIT!!!
+
 
 #checking the number is odd or not
 '''print whether the number is even and skip the condition if not'''
 num=int(input("enter the number"))
 if num%1==0: print(num, "is a odd number")
 print("after the EXIT!!!")
+output:
+       enter the number 33
+       33 is a odd number
+       after the EXIT!!!
+
 
 
 '''program to determine the character enterd by a user ,whether it is an alphabet,digit or space by using seperate if condition and predefined string function'''
@@ -26,6 +40,10 @@ if char.isalpha():
         print("The user has entered digit")
         if char.isspace():
             print("The user has enterd space")
+output:
+        press any key: kl
+        The user has entered character
+
 
 
 #checking if else condituion statements.
@@ -44,6 +62,11 @@ if a<b:
 else:
     small=b
     print("small value is ",small)
+output:
+       enter the value of a: -4
+       enter the value of b: -99
+       small value is  -99
+
 
     '''wrie a program to enter a character (atoz),if the entered character is in lowercase convert into uppercase'''
 char=input("enter any character from a-z")
@@ -53,3 +76,6 @@ if char>='A' and char<='Z':
 else:
     char=char.upper()
     print("converted case input char:",char)
+output:
+       enter any character from a-z b
+        converted case input char: B

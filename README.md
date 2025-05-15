@@ -45,15 +45,11 @@ else:
     small=b
     print("small value is ",small)
 
-    '''wrie a program to covert the upper case character into the lower case character by using if-else condition'''
-ch=input("enter any character from a-z")
-if ch>='A' and ch<='Z':
-    ch=ch.lower()
-    print("converted case input char:",ch)
+    '''wrie a program to enter a character (atoz),if the entered character is in lowercase convert into uppercase'''
+char=input("enter any character from a-z")
+if char>='A' and char<='Z':
+    char=char.lower()
+    print("converted case input char:",char)
 else:
-    ch=ch.upper()
-    print("converted case of input char:",char)
-
-
-
-
+    char=char.upper()
+    print("converted case input char:",char)

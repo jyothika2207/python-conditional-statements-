@@ -39,10 +39,12 @@ else:
     '''write a program to find the smallest of two numbers by using if-else condition'''
 a=int(input("enter the value of a:"))
 b=int(input("enter the value of b:"))
-if a>=b:
-    print("a is greater than b")
+if a<b:
+    small=a
 else:
-    print("b is greater than a")
+    small=b
+    print("small value is ",small)
+
 
 
 

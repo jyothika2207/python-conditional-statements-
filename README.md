@@ -26,3 +26,14 @@ if char.isalpha():
         print("The user has entered digit")
         if char.isspace():
             print("The user has enterd space")
+
+
+#checking if else condituion statements.
+person=int(input("enter the person age:"))
+limit=18
+if person>=18:
+    print("the person is eligible to vote")
+else:
+    print("The person is not eligible to vote")
+
+
